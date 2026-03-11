@@ -2,4 +2,10 @@ title: Dakshara Academy
 description: IELTS, PTE and CELPIP Preparation for Students Planning to Study or Settle Abroad
 baseurl: ""
 url: "https://daksharaacademy.github.io"
-theme: minima
+
+markdown: kramdown
+permalink: /blog/:title/
+
+collections:
+  pages:
+    output: true
