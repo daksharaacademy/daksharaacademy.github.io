@@ -10,11 +10,15 @@ layout: default
 Category: {{ page.category }}
 </p>
 
+{% if page.image %}
 <img src="{{ page.image }}" alt="{{ page.title }}" class="blog-image">
+{% endif %}
 
+<div class="blog-content">
 {{ content }}
+</div>
 
-  <hr>
+<hr>
 
 <h3>Related Articles</h3>
 
