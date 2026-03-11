@@ -144,11 +144,9 @@ work or settle abroad. Small batches, clear strategy and real exam practice.
 
 </section>
 
-<section class="section">
+<section class="latest-blogs">
 
-<div class="container">
-
-<h2 class="section-title">Latest Preparation Guides</h2>
+<h2>Latest Articles</h2>
 
 <div class="blog-grid">
 
@@ -156,19 +154,13 @@ work or settle abroad. Small batches, clear strategy and real exam practice.
 
 <div class="blog-card">
 
-<a href="{{ post.url }}">
-<img src="{{ post.image }}" alt="{{ post.title }}">
+<h3>
+<a href="{{ post.url | relative_url }}">
+{{ post.title }}
 </a>
+</h3>
 
-<div class="blog-content">
-
-<a href="{{ post.url }}">
-<h3>{{ post.title }}</h3>
-</a>
-
-<p>{{ post.description }}</p>
-
-</div>
+<p>{{ post.excerpt }}</p>
 
 </div>
 
@@ -176,9 +168,8 @@ work or settle abroad. Small batches, clear strategy and real exam practice.
 
 </div>
 
-</div>
-
 </section>
+
 
 <section class="section cta">
 
