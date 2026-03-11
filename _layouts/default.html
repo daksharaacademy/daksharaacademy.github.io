@@ -1,47 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
 
 <title>{{ page.title }} | Dakshara Academy</title>
-<meta name="description" content="{{ page.description | default: site.description }}">
-<meta name="keywords" content="{{ page.tags | join: ', ' }}">
 
 <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
 </head>
 
 <body>
 
-<header>
-<h2>Dakshara Academy</h2>
-<p>Language Test Preparation for Global Opportunities</p>
-</header>
+<header class="navbar">
+
+<div class="nav-container">
+
+<div class="logo">
+Dakshara Academy
+</div>
 
 <nav>
-<a href="/">Home</a>
-<a href="/programs">Programs</a>
-<a href="/how-it-works">How It Works</a>
-<a href="/blog/">Blog</a>
-<a href="/apply">Apply</a>
+
+<a href="{{ '/' | relative_url }}">Home</a>
+<a href="{{ '/programs/' | relative_url }}">Programs</a>
+<a href="{{ '/how-it-works/' | relative_url }}">How It Works</a>
+<a href="{{ '/blog/' | relative_url }}">Blog</a>
+<a href="{{ '/apply/' | relative_url }}" class="cta">Free Counselling</a>
+
 </nav>
 
-<section class="section">
+</div>
+
+</header>
+
+<main>
 
 {{ content }}
 
-</section>
+</main>
 
 <footer>
-<p>© 2026 Dakshara Academy</p>
+
+<p>© {{ site.time | date: "%Y" }} Dakshara Academy</p>
+
 </footer>
 
-<a class="whatsapp-button"
-href="https://wa.me/91"
-target="_blank">
-Chat on WhatsApp
-</a>
-
 </body>
+
 </html>
