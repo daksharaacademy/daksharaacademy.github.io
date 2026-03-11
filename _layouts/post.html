@@ -12,6 +12,26 @@ Category: {{ page.category }}
 
 <img src="{{ page.image }}" alt="{{ page.title }}" class="blog-image">
 
-{{ content }}
+{{ content 
+
+  <hr>
+
+<h3>Related Articles</h3>
+
+<ul>
+
+{% for post in site.posts limit:3 %}
+
+{% if post.url != page.url %}
+
+<li>
+<a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+
+{% endif %}
+
+{% endfor %}
+
+</ul>
 
 </article>
