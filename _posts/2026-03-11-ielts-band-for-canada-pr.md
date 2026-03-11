@@ -4,6 +4,7 @@ title: "IELTS Band Required for Canada PR"
 description: "Learn the minimum IELTS score required for Canada PR and how to improve your band score for Express Entry."
 category: IELTS
 tags: [ielts, canada pr, express entry, ielts score]
+image: /assets/ielts-canada.jpg
 ---
 
 If you are planning to apply for Canadian Permanent Residency, IELTS is one of the most important requirements.
