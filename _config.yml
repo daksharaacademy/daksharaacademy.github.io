@@ -1,3 +1,10 @@
 title: Dakshara Academy
+description: IELTS, PTE and CELPIP preparation academy
+url: "https://daksharaacademy.github.io"
+baseurl: ""
+
 markdown: kramdown
 permalink: /blog/:title/
+
+plugins:
+  - jekyll-feed
