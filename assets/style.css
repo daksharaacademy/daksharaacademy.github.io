@@ -198,3 +198,42 @@ grid-template-columns:1fr;
 }
 
 }
+
+.blog-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.blog-card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.2s;
+}
+
+.blog-card:hover{
+transform:translateY(-5px);
+}
+
+.blog-card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.blog-content{
+padding:20px;
+}
+
+.blog-content h3{
+margin-top:0;
+}
+
+.blog-meta{
+color:gray;
+font-size:14px;
+margin-top:10px;
+}
