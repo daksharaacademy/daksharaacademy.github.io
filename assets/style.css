@@ -33,8 +33,14 @@ text-decoration:none;
 }
 
 .logo{
-font-weight:bold;
-font-size:20px;
+font-weight:700;
+font-size:22px;
+letter-spacing:0.5px;
+color:white;
+}
+
+.logo span{
+color:#d4af37;
 }
 
 .hero{
@@ -54,11 +60,16 @@ margin-top:30px;
 
 .primary-btn{
 background:#d4af37;
-color:black;
-padding:12px 22px;
+color:#1a1a1a;
+padding:14px 24px;
 text-decoration:none;
 border-radius:6px;
-font-weight:bold;
+font-weight:600;
+transition:0.2s;
+}
+
+.primary-btn:hover{
+background:#c29f2f;
 }
 
 .secondary-btn{
