@@ -276,3 +276,22 @@ margin:20px 0;
   width: 100%;
   border: none;
 }
+
+.form-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.form-wrapper iframe {
+  width: 100%;
+  border: none;
+}
+
+/* mobile adjustment */
+
+@media (max-width: 768px) {
+  .form-wrapper iframe {
+    height: 1700px;
+  }
+}
