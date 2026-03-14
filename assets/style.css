@@ -248,3 +248,22 @@ width:100%;
 border-radius:10px;
 margin:20px 0;
 }
+
+/* HERO BUTTON FIX FOR MOBILE */
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-buttons a {
+    width: 90%;
+    text-align: center;
+  }
+}
