@@ -267,3 +267,12 @@ margin:20px 0;
     text-align: center;
   }
 }
+.form-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.form-container iframe {
+  width: 100%;
+  border: none;
+}
